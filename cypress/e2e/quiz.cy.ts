@@ -14,6 +14,8 @@ declare namespace Cypress {
       selectRandomAnswer(): Chainable<Subject>;
   
       completeQuizWithRandomAnswers(numQuestions: number): Chainable<Subject>;
+
+      restartQuiz(): Chainable<Subject>;
   
     }
   
